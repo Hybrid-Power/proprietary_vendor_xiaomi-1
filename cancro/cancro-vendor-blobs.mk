@@ -145,7 +145,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cancro/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libAKM8963.so:system/vendor/lib/libAKM8963.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/hw/set_sensorprop.sh:system/vendor/lib/hw/set_sensorprop.sh \
     vendor/xiaomi/cancro/proprietary/lib/hw/consumerir.msm8974.so:system/lib/hw/consumerir.msm8974.so \
     vendor/xiaomi/cancro/proprietary/etc/permissions/android.hardware.consumerir.xml:system/etc/permissions/android.hardware.consumerir.xml \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
@@ -154,7 +153,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libsensor_user_cal.so:system/vendor/lib/libsensor_user_cal.so \
     vendor/xiaomi/cancro/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
     vendor/xiaomi/cancro/proprietary/bin/hvdcp:system/bin/hvdcp \
-    vendor/xiaomi/cancro/proprietary/bin/charger_monitor:system/bin/charger_monitor \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libmm-hdcpmgr.so:system/vendor/lib/libmm-hdcpmgr.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libmmQSM.so:system/vendor/lib/libmmQSM.so \
     vendor/xiaomi/cancro/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
@@ -209,13 +207,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cancro/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
     vendor/xiaomi/cancro/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
-    vendor/xiaomi/cancro/proprietary/bin/wcnss_service:system/bin/wcnss_service \
-    vendor/xiaomi/cancro/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/rfsa/adsp/libapps_mem_heap.so:system/lib/rfsa/adsp/libapps_mem_heap.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:system/lib/rfsa/adsp/libdspCV_skel.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:system/lib/rfsa/adsp/libfastcvadsp_skel.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:system/lib/rfsa/adsp/libfastcvadsp.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:system/lib/rfsa/adsp/libscveT2T_skel.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libsrsprocessing.so:system/vendor/lib/libsrsprocessing.so
+    vendor/xiaomi/cancro/proprietary/vendor/lib/libsrsprocessing.so:system/vendor/lib/libsrsprocessing.so \
+    vendor/xiaomi/cancro/proprietary/lib/hw/lights.msm8974.so:system/lib/hw/lights.msm8974.so
 
