@@ -23,7 +23,12 @@ PRODUCT_PACKAGES += \
     libqminvapi \
     libtime_genoff \
 	libmdmdetect \
-    libTimeService
+    libTimeService \
+    libqct_resampler \
+    libqmiservices \
+    libqmi \
+    libqcci_legacy \
+    libqmi_client_qmux
 
 $(call inherit-product, vendor/xiaomi/dior/dior-vendor-blobs.mk)
 $(call inherit-product, vendor/xiaomi/qcom/qcom-vendor-blobs.mk)
