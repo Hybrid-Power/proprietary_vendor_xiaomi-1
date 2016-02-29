@@ -150,12 +150,7 @@ PRODUCT_COPY_FILES += \
 
 # GPS
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/dior/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
-    vendor/xiaomi/dior/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/xiaomi/dior/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    vendor/xiaomi/dior/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
-    vendor/xiaomi/dior/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
-    vendor/xiaomi/dior/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so
+    vendor/xiaomi/dior/proprietary/lib/hw/gps.msm8226.so:system/lib/hw/gps.msm8226.so 
 
 # Keystore
 PRODUCT_COPY_FILES += \
@@ -203,6 +198,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dior/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/xiaomi/dior/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/xiaomi/dior/proprietary/framework/QPerformance.jar:system/framework/QPerformance.jar \
+    vendor/xiaomi/dior/proprietary/framework/org.apache.http.legacy.boot.jar:system/framework/org.apache.http.legacy.boot.jar \
     vendor/xiaomi/dior/proprietary/vendor/lib/libasn1cper.so:system/vendor/lib/libasn1cper.so \
     vendor/xiaomi/dior/proprietary/vendor/lib/libasn1crt.so:system/vendor/lib/libasn1crt.so \
     vendor/xiaomi/dior/proprietary/vendor/lib/libasn1crtx.so:system/vendor/lib/libasn1crtx.so \
@@ -223,6 +219,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dior/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/xiaomi/dior/proprietary/vendor/lib/libsensor_test.so:system/vendor/lib/libsensor_test.so \
     vendor/xiaomi/dior/proprietary/vendor/lib/libsensor_user_cal.so:system/vendor/lib/libsensor_user_cal.so
+
+#lights
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/dior/proprietary/lib/hw/lights.msm8226.so:system/lib/hw/lights.msm8226.so
 
 # Thermal
 #PRODUCT_COPY_FILES += \

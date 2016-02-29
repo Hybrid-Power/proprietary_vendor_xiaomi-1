@@ -83,24 +83,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cancro/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
     vendor/xiaomi/cancro/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
-    vendor/xiaomi/cancro/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
-    vendor/xiaomi/cancro/proprietary/bin/quipc_main:system/bin/quipc_main \
-    vendor/xiaomi/cancro/proprietary/bin/quipc_igsn:system/bin/quipc_igsn \
     vendor/xiaomi/cancro/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/xiaomi/cancro/proprietary/lib/hw/activity_recognition.msm8974.so:system/lib/hw/activity_recognition.msm8974.so \
-    vendor/xiaomi/cancro/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/xiaomi/cancro/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    vendor/xiaomi/cancro/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-    vendor/xiaomi/cancro/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-    vendor/xiaomi/cancro/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/xiaomi/cancro/proprietary/lib/hw/gps.msm8974.so:system/lib/hw/gps.msm8974.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libquipc_ulp_adapter.so:system/vendor/lib/libquipc_ulp_adapter.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
@@ -135,6 +120,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cancro/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/xiaomi/cancro/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/xiaomi/cancro/proprietary/framework/QPerformance.jar:system/framework/QPerformance.jar \
+    vendor/xiaomi/cancro/proprietary/framework/org.apache.http.legacy.boot.jar:system/framework/org.apache.http.legacy.boot.jar \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libasn1cper.so:system/vendor/lib/libasn1cper.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libasn1crt.so:system/vendor/lib/libasn1crt.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libasn1crtx.so:system/vendor/lib/libasn1crtx.so \
